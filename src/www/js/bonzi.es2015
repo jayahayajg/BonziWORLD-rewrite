@@ -8,8 +8,8 @@ class Bonzi {
 			name: "BonziBUDDY",
 			color: "purple",
 			speed: 175,
-			pitch: 50,
-			voice: "en-us"
+			pitch: 55,
+			voice: "en-zh"
 		};
 		this.color = this.userPublic.color;
 		this.colorPrev;
