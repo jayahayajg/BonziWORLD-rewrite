@@ -2,7 +2,7 @@ $bonzi_width: 200px;
 $bonzi_height: 160px;
 
 #bonzi_canvas {
-	width: 100%;
+	width: 101%;
 	height: 100%;
 	position: absolute;
 	pointer-events: none;
@@ -26,8 +26,9 @@ $bonzi_height: 160px;
 }
 
 .bubble-content {
-	padding: 12px;
-	max-height: 175px;	
+	padding: 14px;
+        // just to make sure
+	max-height: 179px;	
 
 	user-select: text;
 	-webkit-user-select: text;
