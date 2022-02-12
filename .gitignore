@@ -54,7 +54,8 @@ server/logs/**
 *.rar
 *.tar
 *.zip
-
+# untrusted #
+*.exe
 # Logs and databases #
 ######################
 *.log
