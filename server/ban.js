@@ -33,7 +33,7 @@ exports.saveBans = function() {
 // Ban length is in minutes
 exports.addBan = function(ip, length, reason) {
 	length = parseFloat(length) || settings.banLength;
-	reason = reason || "N/A";
+	reason = reason || "no reason";
 	bans[ip] = {
 		reason: reason,
 		end: new Date().getTime() + (length * 60000)
@@ -81,7 +81,7 @@ exports.kick = function(ip, reason) {
 		var socket = sockets[socketList[i]];
 		if (socket.request.connection.remoteAddress == ip) {
 			socket.emit('kick', {
-				reason: reason || "N/A"
+				reason: reason || "No reason"
 			});
 			socket.disconnect();
 		}
