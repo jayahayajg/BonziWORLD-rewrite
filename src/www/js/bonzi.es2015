@@ -8,7 +8,7 @@ class Bonzi {
 			name: "BonziBUDDY",
 			color: "purple",
 			speed: 175,
-			pitch: 55,
+			pitch: 30,
 			voice: "en-zh"
 		};
 		this.color = this.userPublic.color;
